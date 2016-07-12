@@ -28,6 +28,15 @@
     <Filter Include="ソース ファイル\Scene\sceneMain">
       <UniqueIdentifier>{a6a15a66-b0c6-467f-9e78-3cfc4b91b5a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\GameManager">
+      <UniqueIdentifier>{f3acdd8b-de8e-4246-9e70-72924d73ed18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UIManager">
+      <UniqueIdentifier>{87056f98-4f80-4483-8e18-1195dbf9c611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GlobalFunction">
+      <UniqueIdentifier>{855f8840-f21f-4ec1-bd69-b0c4b78c3238}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\system\Framework.cpp">
@@ -90,6 +99,15 @@
     <ClCompile Include="source\sceneMain.cpp">
       <Filter>ソース ファイル\Scene\sceneMain</Filter>
     </ClCompile>
+    <ClCompile Include="source\GameManager.cpp">
+      <Filter>ソース ファイル\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UIManager.cpp">
+      <Filter>ソース ファイル\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GlobalFunction.cpp">
+      <Filter>ソース ファイル\GlobalFunction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\system\Framework.h">
@@ -106,6 +124,15 @@
     </ClInclude>
     <ClInclude Include="source\sceneMain.h">
       <Filter>ソース ファイル\Scene\sceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameManager.h">
+      <Filter>ソース ファイル\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UIManager.h">
+      <Filter>ソース ファイル\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GlobalFunction.h">
+      <Filter>ソース ファイル\GlobalFunction</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

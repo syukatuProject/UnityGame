@@ -37,6 +37,21 @@
     <Filter Include="ソース ファイル\GlobalFunction">
       <UniqueIdentifier>{855f8840-f21f-4ec1-bd69-b0c4b78c3238}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\PlayerManager">
+      <UniqueIdentifier>{1d3848fa-d4dc-468d-a8bd-68dc3a783aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{5cdbe4fa-f4cc-40b5-9b70-d70f132759ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\StageManager">
+      <UniqueIdentifier>{2d253ba7-1838-4899-9fe7-cd5603394916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{a93fb2a8-6e5d-42b8-bb6f-411a0a13a039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\BaseObj">
+      <UniqueIdentifier>{40720e6e-96d9-4616-b2b9-b4ca1fcf8acd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\system\Framework.cpp">

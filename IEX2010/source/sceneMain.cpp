@@ -1,6 +1,8 @@
 
 #include	"iextreme.h"
 #include	"system/system.h"
+#include	"GlobalFunction.h"
+#include	"PlayerManager.h"
 
 #include	"sceneMain.h"
 
@@ -33,6 +35,8 @@ bool	sceneMain::Initialize( void )
 	view = new iexView();
 	view->Set( Vector3( 0, 3, -5 ), Vector3( 0, 0, 0 ) );
 
+	//	ƒvƒŒƒCƒ„[‰Šú‰»
+	playerManager->Initialize();
 
 
 
@@ -41,7 +45,8 @@ bool	sceneMain::Initialize( void )
 
 sceneMain::~sceneMain( void )
 {
-
+	SafeDelete( view );
+	playerManager->Release();
 
 
 
@@ -54,7 +59,8 @@ sceneMain::~sceneMain( void )
 //*****************************************************************************************************************************
 void	sceneMain::Update( void )
 {
-
+	//	playerManager
+	playerManager->Update();
 
 
 
@@ -71,7 +77,8 @@ void	sceneMain::Render( void )
 	view->Activate();
 	view->Clear();
 
-
+	//	playerManager
+	playerManager->Render();
 
 
 

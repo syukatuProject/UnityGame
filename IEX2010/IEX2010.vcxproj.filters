@@ -123,6 +123,15 @@
     <ClCompile Include="source\GlobalFunction.cpp">
       <Filter>ソース ファイル\GlobalFunction</Filter>
     </ClCompile>
+    <ClCompile Include="source\BaseObj.cpp">
+      <Filter>ソース ファイル\BaseObj</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerManager.cpp">
+      <Filter>ソース ファイル\PlayerManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\system\Framework.h">
@@ -148,6 +157,15 @@
     </ClInclude>
     <ClInclude Include="source\GlobalFunction.h">
       <Filter>ソース ファイル\GlobalFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseObj.h">
+      <Filter>ソース ファイル\BaseObj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PlayerManager.h">
+      <Filter>ソース ファイル\PlayerManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
